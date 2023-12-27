@@ -21,7 +21,11 @@ public final class PasswordMaker {
 	}
 		
 	public static void main(String[] args) {
-		System.out.print(buildPassword(6, 15));
+		System.out.print(buildPassword(6, 3));
+		// sample: wcTD$B-cesRH6-q3RL%H
+
+		System.out.print(buildPassword(5, 2));
+		// sample: WR3bC-XwM?N
 		
 	}
 		
